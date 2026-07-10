@@ -68,7 +68,7 @@ with st.sidebar:
 
 # ---------------- TITLE ----------------
 st.title("🤖 Javeria's AI Chatbot")
-st.caption("Powered by Groq + Llama — fast, free, aur smart 🚀")
+st.caption("Ask me anything ✨")
 
 # ---------------- API CLIENT ----------------
 api_key = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY", None)
