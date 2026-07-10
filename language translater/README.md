@@ -1,61 +1,194 @@
-# 🌐 CodeAlpha_LanguageTranslationTool
+# 🌍 LinguaBridge – AI Language Translation Tool
 
-A browser-based Language Translation Tool built for the **CodeAlpha Artificial Intelligence Internship — Task 1**.
+## 📌 Project Overview
 
-📌 [Features](#-features) · [Tech Stack](#️-tech-stack) · [How to Run](#️-how-to-run) · [Screenshots](#-screenshots)
+LinguaBridge is an AI-powered Language Translation Tool developed as part of the **CodeAlpha Artificial Intelligence Internship (Task 1)**.
 
-## 🚀 Features
+This application enables users to translate text between multiple languages instantly using an online translation API. It also includes advanced features such as OCR-based image translation, document translation, website text extraction, speech synthesis, translation history, favorites, and export functionality.
 
-- Enter text and select source & target languages
-- Translation powered by the **MyMemory Translation API**
-- Clean, animated UI (dark/light theme toggle)
-- Copy translated text with one click
-- Text-to-speech (listen aloud)
-- Export translation as `.txt`
-- Translation history with favorites
-- Extra: Image OCR (Tesseract.js), document upload (.txt/.docx), and translate-a-webpage-URL support
+The project is designed with a modern responsive user interface and provides an easy-to-use translation experience across different devices.
 
-## 🛠️ Tech Stack
+---
 
-- HTML, CSS, JavaScript (vanilla, no build step)
-- [MyMemory Translation API](https://mymemory.translated.net/) for translations
-- [Tesseract.js](https://github.com/naptha/tesseract.js) for OCR
-- Web Speech API for text-to-speech
+# 🚀 Features
 
-## ▶️ How to Run
+### 🌐 Multi-Language Translation
+- Translate text between 20+ languages
+- Automatic language detection
+- Fast and accurate translations
 
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/<your-username>/CodeAlpha_LanguageTranslationTool.git
-   ```
-2. Open `index.html` directly in your browser — no server or build step required.
+### 🖼️ Image OCR Translation
+- Upload images containing text
+- Extract text using OCR (Tesseract.js)
+- Translate extracted content automatically
 
-## 📸 Screenshots
+### 📄 Document Translation
+- Upload TXT files
+- Upload DOCX files
+- Extract and translate document content
 
-![App Screenshot](screenshot.png)
+### 🌍 Website Translation
+- Paste a webpage URL
+- Extract visible webpage text
+- Translate webpage content instantly
 
-## 📁 Project Structure
+### 🔊 Text-to-Speech
+- Listen to translated text
+- Multiple language voice support
+- Browser speech synthesis integration
 
+### ⭐ Translation History
+- Automatically save translations
+- Access previous translations
+- Mark important translations as favorites
+
+### 💾 Export Translation
+- Download translated content as TXT file
+- Easy sharing and storage
+
+### 🎨 Modern UI/UX
+- Dark Theme Interface
+- Light/Dark Mode Toggle
+- Fully Responsive Design
+- Mobile Friendly Layout
+
+---
+
+
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure |
+| CSS3 | Styling & Responsive Design |
+| JavaScript (ES6) | Application Logic |
+| MyMemory Translation API | Language Translation |
+| Tesseract.js | OCR Text Extraction |
+| Mammoth.js | DOCX Processing |
+| Web Speech API | Text-to-Speech |
+
+
+# ⚙️ Installation & Usage
+
+### Step 1: Clone Repository
+
+```bash
+git clone https://github.com/YourUsername/CodeAlpha_LanguageTranslationTool.git
 ```
-CodeAlpha_LanguageTranslationTool/
-├── index.html      # Full app (HTML + CSS + JS in one file)
-├── screenshot.png  # App preview
-└── README.md       # Project documentation
+
+### Step 2: Open Project
+
+```bash
+cd CodeAlpha_LanguageTranslationTool
 ```
 
-## 🙋 FAQ
+### Step 3: Run Application
 
-**Why MyMemory API instead of Google Translate API?**
-MyMemory is free and requires no API key, making the project instantly runnable by anyone who clones it — no setup or billing account needed.
+Simply open:
 
-**Does this need a server/backend?**
-No. It's fully client-side; just open `index.html` in any modern browser.
+```text
+index.html
+```
 
-## 📌 About
+in your web browser.
 
-This project was built as part of the **CodeAlpha Artificial Intelligence Internship** (Task 1: Language Translation Tool).
+No additional installation is required.
 
-## 📞 Author
+---
 
-Built by **[Your Name]** as part of `#codealpha` `#internship`
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+# 🎯 How It Works
+
+### 1️⃣ Select Input Type
+Choose:
+- Text
+- Image
+- Document
+- Website URL
+
+### 2️⃣ Select Languages
+Choose:
+- Source Language
+- Target Language
+
+### 3️⃣ Translate
+Click the **Translate** button.
+
+### 4️⃣ Additional Actions
+- Copy Translation
+- Listen to Translation
+- Save Translation
+- View History
+
+---
+
+# 📋 Internship Task Details
+
+### CodeAlpha Artificial Intelligence Internship
+
+### Task 1: Language Translation Tool
+
+### Requirements Completed
+
+✅ User Interface for text input
+
+✅ Source and Target Language Selection
+
+✅ Translation API Integration
+
+✅ Display Translated Output
+
+✅ Copy Translation Feature
+
+✅ Text-to-Speech Feature
+
+✅ Responsive UI Design
+
+✅ Additional OCR Translation
+
+✅ Additional Document Translation
+
+✅ Additional Website Translation
+
+---
+
+# 🌟 Key Highlights
+
+- AI-Powered Translation Tool
+- Supports Multiple Languages
+- OCR-Based Image Translation
+- Website Content Translation
+- Speech Synthesis Support
+- Modern Responsive UI
+- Beginner-Friendly Interface
+- Real-World AI Application
+
+---
+
+# 🔮 Future Improvements
+
+- Google Translate API Integration
+- Voice-to-Text Input
+- PDF Translation Support
+- User Authentication
+- Cloud Storage
+- Translation Analytics Dashboard
+
+---
+
+# 👨‍💻 Developer
+
+**Javeria Maqsood**
+
+Artificial Intelligence Intern
+
+CodeAlpha Internship Program
+
+---
+
+# 📜 License
+
+This project is developed for educational and internship purposes.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub.
