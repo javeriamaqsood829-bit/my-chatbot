@@ -48,4 +48,5 @@ Deployed free on [Streamlit Community Cloud](https://share.streamlit.io) — add
 - Python-dotenv
 
 ---
-Made with ❤️ by Javeria
+Made with ❤️ by Javeria 
+Updated: 2026
