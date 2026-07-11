@@ -1,3 +1,4 @@
+# ignored files
 venv/
 .env
 __pycache__/
